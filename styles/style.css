@@ -1,0 +1,59 @@
+@import 'style.css';
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Source+Code+Pro:wght@400;500;600;700;800;900&display=swap");
+/* FONTES */
+/* CORES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+header {
+  padding: 40px;
+}
+header div {
+  height: 250px;
+  width: 250px;
+  margin: auto;
+  padding: 10px;
+  background-image: linear-gradient(45deg, #1D3461, #376996, #829CBC);
+  border-radius: 50%;
+}
+header div img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+}
+
+section {
+  height: -moz-fit-content;
+  height: fit-content;
+  background-image: linear-gradient(45deg, #1D3461, #376996, #829CBC);
+  padding: 5px;
+  border-radius: 15px;
+  margin-top: 40px;
+}
+section div {
+  background-color: rgb(23, 23, 23);
+  padding: 20px;
+  border-radius: 15px;
+}
+section h1 {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 8px;
+}
+section p {
+  font-family: "Source Code Pro", monospace;
+  margin-bottom: 30px;
+}
+section img {
+  margin-right: 20px;
+}
+section #game img {
+  border-radius: 10px;
+}/*# sourceMappingURL=style.css.map */

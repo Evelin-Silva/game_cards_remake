@@ -1,0 +1,64 @@
+@charset 'UTF-8';
+@import 'style.css';
+@import 'colors_fonts.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+header{
+    padding: 40px;
+    div{
+        height: 250px;
+        width: 250px;
+        margin: auto;
+        padding: 10px;
+        background-image: linear-gradient(45deg, $delftBlue, $lapisLazuli, $vistaBlue);
+        border-radius: 50%;
+
+        img{
+            width: 100%;
+            border-radius: 50%;
+        }
+    }
+}
+
+main{
+    max-width: 800px;
+    margin: auto;
+}
+
+section{
+    height: fit-content;
+    background-image: linear-gradient(45deg, $delftBlue, $lapisLazuli, $vistaBlue);
+    padding: 5px;
+    border-radius: 15px;
+    margin-top: 40px;
+
+    div{
+        background-color: rgb(23, 23, 23);
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    h1{
+        font-family: $tittlefont;
+        margin-bottom: 8px;
+    }
+
+    p{
+        font-family: $mainfont;
+        margin-bottom: 30px;
+    }
+
+    img{
+        margin-right: 20px;
+    }
+
+    #game img{
+        border-radius: 10px;
+    }
+}
