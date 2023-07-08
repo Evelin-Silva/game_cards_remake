@@ -1,12 +1,18 @@
 @import 'style.css';
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Source+Code+Pro:wght@400;500;600;700;800;900&display=swap");
-/* FONTES */
-/* CORES */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   color: white;
+}
+
+body {
+  background-image: linear-gradient(45deg, #1D3461, #1F487E, #376996, #6290C8, #829CBC);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 header {
@@ -16,8 +22,8 @@ header div {
   height: 250px;
   width: 250px;
   margin: auto;
-  padding: 10px;
-  background-image: linear-gradient(45deg, #1D3461, #376996, #829CBC);
+  padding: 5px;
+  background-image: linear-gradient(45deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
   border-radius: 50%;
 }
 header div img {
@@ -28,13 +34,14 @@ header div img {
 main {
   max-width: 800px;
   margin: auto;
+  margin-bottom: 70px;
 }
 
 section {
   height: -moz-fit-content;
   height: fit-content;
-  background-image: linear-gradient(45deg, #1D3461, #376996, #829CBC);
-  padding: 5px;
+  background-image: linear-gradient(45deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+  padding-top: 5px;
   border-radius: 15px;
   margin-top: 40px;
 }
@@ -45,15 +52,28 @@ section div {
 }
 section h1 {
   font-family: "Poppins", sans-serif;
+  font-size: 2em;
   margin-bottom: 8px;
 }
 section p {
   font-family: "Source Code Pro", monospace;
+  font-size: 1.4em;
   margin-bottom: 30px;
 }
 section img {
   margin-right: 20px;
 }
+section img:hover {
+  transition: 0.4s;
+  scale: 1.1;
+}
 section #game img {
   border-radius: 10px;
+}
+section #streamers img {
+  height: 120px;
+  border-radius: 50%;
+}
+section #networks img {
+  height: 50px;
 }/*# sourceMappingURL=style.css.map */

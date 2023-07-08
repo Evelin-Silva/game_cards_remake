@@ -9,14 +9,22 @@
     color: white;
 }
 
+body{
+    background-image: linear-gradient(45deg, $delftBlue, $polynesianBlue, $lapisLazuli, $silverLakeBlue, $vistaBlue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 header{
     padding: 40px;
     div{
         height: 250px;
         width: 250px;
         margin: auto;
-        padding: 10px;
-        background-image: linear-gradient(45deg, $delftBlue, $lapisLazuli, $vistaBlue);
+        padding: 5px;
+        background-image: linear-gradient(45deg, $purple 0%, $green 50.52%, $yellow 100%);
         border-radius: 50%;
 
         img{
@@ -29,12 +37,13 @@ header{
 main{
     max-width: 800px;
     margin: auto;
+    margin-bottom: 70px;
 }
 
 section{
     height: fit-content;
-    background-image: linear-gradient(45deg, $delftBlue, $lapisLazuli, $vistaBlue);
-    padding: 5px;
+    background-image: linear-gradient(45deg, $purple 0%, $green 50.52%, $yellow 100%);
+    padding-top: 5px;
     border-radius: 15px;
     margin-top: 40px;
 
@@ -46,19 +55,35 @@ section{
 
     h1{
         font-family: $tittlefont;
+        font-size: 2em;
         margin-bottom: 8px;
     }
 
     p{
         font-family: $mainfont;
+        font-size: 1.4em;
         margin-bottom: 30px;
     }
 
     img{
         margin-right: 20px;
+
+        &:hover{
+            transition: 0.4s;
+            scale: (1.1);
+        }
     }
 
     #game img{
         border-radius: 10px;
+    }
+
+    #streamers img{
+        height: 120px;
+        border-radius: 50%;
+    }
+
+    #networks img{
+        height: 50px;
     }
 }
